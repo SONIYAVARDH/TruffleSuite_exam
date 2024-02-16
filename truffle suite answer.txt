@@ -1,0 +1,33 @@
+ans.1) Truffle is a world-class development environment,assets pipeline and testing framework for developing smart contracts using the ethereum virtual machine(EVM),aiming to make life as a developer easier.
+       The slogan of of truffle suite is " Smart Contracts Made Sweeter", indicating that the environment specializes in Smart Contract Development.
+       Truffle provides tools for writing,testing and deploying decentralized applications(DApp).
+
+
+ans.2) Ganache typically refers to a development tool used for testing and deploying smart contracts.Ganache provides a personal ethereum blockchain development, allowing developers to create a local test network to interact with smart contracts in a controlled environment.
+       it's useful for debugging,testing,and simulating various scenarios without interacting with the main ethereum network.
+     
+
+ans.3) 1.Ensure you have Node.js and npm(Node package Manager) installed on your computer.
+       2. Install Truffle globally : open the command prompt and type the command -
+              npm install -g truffle
+       3. now check the truffle for properly installed or not? with the run command-
+              Truffle version
+       
+
+
+
+
+
+ans.4) 1. Create a new Truffle Project: for creating project first, we will create a new directory and get a directory,we will run the following command-
+              mkdir MetaCoin
+              cd MetaCoin 
+          To create a project, excute for the following command-
+              truffle unbox metacoin
+
+       2. Explore the project structure:
+           Contracts:- This directory contains the smart contract for your project. In the MetaCoin example , you will find ConvertLib.sol and MetaCoin.sol.
+           Migration:- migration scripts helps deploy your smart contracts to the blockchain, you will find files like 1._intial_migration.js and 2. _deploy_contracts.js.
+           Test:-      This directory is for your test files.It's important to test your smart contract to ensure they work as expected.you will find files 1.TestMetaCoin.sol and MetaCoin.js
+           Truffle-config.js(or truflle.js):- Configration file for truffle.It includes setting like the network configuration,complier version,and other project-specific options.
+
+ 
